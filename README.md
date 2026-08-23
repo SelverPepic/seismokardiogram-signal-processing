@@ -5,7 +5,7 @@ Processing of seismokardiogram signals from a smartphone - test of using AI tool
 - INPUT: data from smartphone accelerometer (excel file, body + gravitational acceleration)
 - OUTPUT: estimated heartbeat rate and amplitude of chest wall motion
 
-![](figures/"g2 measurements, raw.png")
+![](figures/<g2 measurements, raw.png>)
 
 Pseudocode:
 1. load excel data
@@ -15,7 +15,7 @@ Pseudocode:
 5. plot template + individual signals to asses variablility
 6. integrate acceleration to obtain chest wall displacement due to a heartbeat, output values
 
-![](figures/"g2 measurements, gravity removed.png")
+![](figures/<g2 measurements, gravity removed.png>)
 
 ![](figures/average_heartbeat_template_red.png)
 
